@@ -1,0 +1,1336 @@
+body {
+ overflow-x: hidden;
+}
+.Frame_1 {
+	position: relative;
+   width: 100%;
+   height: 1080px;
+   background: #FFFFFF;
+ }
+ .Octa{
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  background-image: url(../PHOTOS/Octaevo.jpg);
+  right: 0;
+  z-index: 9;
+  background-repeat: no-repeat;
+  background-size: cover; 
+ }
+ .shopping_bag{
+ 	position: absolute;
+ 	background-image: url(../PHOTOS/shopping_bag.jpg);
+ 	width: 46.39px;
+    height: 49.09px;
+    z-index: 10;
+    right: 56.36px;
+    top: 49.52px;
+    mix-blend-mode: multiply;
+ }
+ .info_top{
+  position: relative;
+  height: 1080px;
+  width: 54%;
+ }
+ .header_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 599px;
+    height: 17px;
+
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+ }
+ 
+ .header{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   height: 100px;
+ }
+
+ .title {
+   width: 80.13px;
+   height: 30px;
+   margin-right: 50.87px;
+   background-image: url(../PHOTOS/title.jpg);
+
+ }
+
+ .vectors{
+   width: 29.48px;
+   height: 30px;
+   margin-right: 14px;
+ }
+ .vector_1{
+   width: 29.41px;
+   height: 0px;
+   border: 1px solid #000000;
+ }
+ .vector_2{
+   width: 29.41px;
+   height: 0px;
+   border: 1px solid #000000;
+   margin-top: 13px;
+   margin-bottom: 13px;
+ }
+ .vector_3{
+   width: 29.41px;
+   height: 0px;
+   border: 1px solid #000000;
+ }
+ .header_text p{
+   margin-right: 30px;
+ }
+
+ .torch {
+   width: 687.01px;
+   height: 361.19px;
+   margin-left: 11%;
+   margin-top: 26%;
+   position: relative;
+ }
+
+ .torch_title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 48px;
+   line-height: 60px;
+   letter-spacing: 0.15em;
+   width: 100%;
+   height: 40%;
+
+   color: #000000;
+ }
+
+.torch_info {
+   position: absolute;
+   right: 0; 
+   width: 637.87px;
+   height: 200px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 0.1em;
+}
+
+.choose_button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 252.24px;
+   height: 46.79px;
+
+   background: #000000;
+   position: absolute;
+   bottom: 0;
+   left: 50px;
+}
+
+.choose_button_text{
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   color: white;
+}
+
+.hand_photo{
+   width: 117.49px;
+   height: 129.34px;
+   background-image: url(../PHOTOS/candle.jpg);
+   margin-left: -80px;
+}
+
+.Frame_1_footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   position: absolute;
+   bottom: 0;
+   left: 177px;
+
+   width: 271.17px;
+   height: 34.51px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 100;
+   font-size: 18px;
+   line-height: 22px;
+}
+
+.telephone{
+   margin-right: 100px;
+}
+
+
+.Frame_2 {
+   height: 1200px;
+   width: 100%;
+   position: relative;
+}
+
+.Frame_2_info {
+   height: 1200px;
+   width: 100%;
+   display: flex;
+   position: absolute;
+}
+
+.statue_photo {
+   width: 90%;
+   height: 731.89px;
+   background-image: url(../PHOTOS/statue.jpg);
+   margin-top: 17%;
+   border: 2px solid black;
+   background-size: 100% 100%;
+}
+.statue_border {
+   width: 37%;
+   height: 923px;
+   border-top: 2px solid black;
+   border-right: 2px solid black;
+   margin-top: 117px;
+}
+
+.candles_info_border {
+   height: 1040px;
+   width: 63%;
+   border-bottom: 2px solid black;
+}
+
+.candles_title {
+   width: 395.89px;
+   height: 48.51px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 64px;
+   line-height: 78px;
+   letter-spacing: 0.15em;
+
+   color: #000000;
+
+   position: absolute;
+   margin-left: 25%;
+   top: 132.04px;
+}
+
+.candles_info {
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   position: absolute;
+   top: 215px;
+   right: 0;
+
+   width: 50%;
+   height: 659.14px;
+   background-image: url(../PHOTOS/donut.jpg);
+   background-size: 100% 100%;
+}
+
+.candles_info_text {
+   width: 883.06px;
+   height: 486.82px;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 0.1em;
+   font-family: 'Montserrat';
+}
+
+.Marevo {
+   height: 1200px;
+   width: 100%;
+   position: relative;
+}
+
+.Marevo_info {
+   height: 100%;
+   width: 100%;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.collection_Marevo {
+   width: 95%;
+   height: 1200px;
+}
+
+.Marevo_title {
+   margin-left: auto;
+   margin-right: auto;
+   width: 695.81px;
+   height: 78px;
+   border: 3px solid black;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Montserrat';
+   font-weight: 800;
+   font-size: 30px;
+   line-height: 17px;
+   letter-spacing: 0.1em;
+}
+
+.three_palms_1 {
+   width: 100%;
+   height: 1122px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Marevo_1 {
+   width: 30%;
+   height: 980px;
+}
+
+.Marevo_2 {
+   width: 30%;
+   height: 980px;
+}
+
+.Marevo_3 {
+   width: 30%;
+   height: 980px;
+}
+
+.Marevo_1_photo {
+   width: 100%;
+   height: 750px;
+   background-image: url(../PHOTOS/printest_torch.jpg);
+   background-size: 100% 100%;
+}
+
+.Marevo_2_photo {
+   width: 100%;
+   height: 750px;
+   background-image: url(../PHOTOS/Palm_Spear_torch.jpg);
+   background-size: 100% 100%;
+}
+
+
+.Marevo_3_photo {
+   width: 100%;
+   height: 751.4px;
+   background-image: url(../PHOTOS/Mini_torch.jpg);
+   background-size: 100% 100%;
+}
+
+.Marevo_1_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 16px;
+   letter-spacing: 0.1em;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Marevo_2_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 16px;
+   letter-spacing: 0.1em;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Marevo_3_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 16px;
+   letter-spacing: 0.1em;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Marevo_1_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Marevo_2_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Marevo_3_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.bin {
+   width: 216.81px;
+   height: 40.19px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid black;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+   margin-top: 20px;
+}
+
+.next_left {
+   width: 70.5px;
+   height: 93.54px;
+   background-image: url(../PHOTOS/next_left.jpg);
+}
+
+.next_right {
+   width: 70.5px;
+   height: 93.54px;
+   background-image: url(../PHOTOS/next_right.jpg);
+}
+
+.Zarevo {
+   height: 1200px;
+   width: 100%;
+   position: relative;
+}
+
+.Zarevo_info {
+   height: 100%;
+   width: 100%;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.collection_Zarevo {
+   width: 95%;
+   height: 1200px;
+}
+
+.Zarevo_title {
+   margin-left: auto;
+   margin-right: auto;
+   width: 695.81px;
+   height: 78px;
+   border: 3px solid black;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Montserrat';
+   font-weight: 800;
+   font-size: 30px;
+   line-height: 17px;
+   letter-spacing: 0.1em;
+}
+
+.three_palms_2 {
+   width: 100%;
+   height: 1000px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Zarevo_1 {
+   width: 30%;
+   height: 751.4px;
+}
+
+.Zarevo_2 {
+   width: 30%;
+   height: 751.4px;
+}
+
+.Zarevo_3 {
+   width: 30%;
+   height: 750px;
+}
+
+.Zarevo_1_photo {
+   width: 100%;
+   height: 751.4px;
+   background-image: url(../PHOTOS/bowl_torch.jpg);\
+   background-size: 100% 100%;
+}
+
+.Zarevo_2_photo {
+   width: 100%;
+   height: 751.4px;
+   background-image: url(../PHOTOS/regular_torch.jpg);
+   background-size: 100% 100%;
+}
+
+
+.Zarevo_3_photo {
+   width: 100%;
+   height: 750px;
+   background-image: url(../PHOTOS/collection_torch.jpg);
+   background-size: 100% 100%;
+}
+
+.Zarevo_1_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Zarevo_2_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Zarevo_3_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Zarevo_1_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Zarevo_2_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Zarevo_3_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.bin {
+   width: 216.81px;
+   height: 40.19px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid black;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+   margin-top: 20px;
+}
+
+.Aromatics {
+   width: 100%;
+   height: 700px;
+}
+
+.Aromatics_flex {
+   width: 100%;
+   height: 100%;
+   display: inline-flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.Aromatics_info {
+   width: 43%;
+   height: 650px;
+   
+   display: flex;
+   flex-direction: column;
+}
+
+.Aromatics_title {
+   width: 241px;
+   height: 59.19px;
+   margin-right: auto;
+   margin-left: auto;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 59px;
+   letter-spacing: 0.15em;
+
+   color: #000000;
+}
+
+.jars_photo {
+   width: 50%;
+   height: 650px;
+   background-image: url(../PHOTOS/jars.jpg);
+   background-size: 100% 100%;
+}
+
+.Aromatics_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 403px;
+  border: 2px solid black;
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.Pastille {
+   height: 800px;
+   width: 100%;
+   position: relative;
+}
+
+.Pastille_info {
+   height: 100%;
+   width: 100%;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.collection_Pastille {
+   width: 95%;
+   height: 700px;
+}
+
+.three_palms_3 {
+   width: 100%;
+   height: 700px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Pastille_1 {
+   width: 30%;
+   height: 751.4px;
+}
+
+.Pastille_2 {
+   width: 30%;
+   height: 751.4px;
+}
+
+.Pastille_3 {
+   width: 30%;
+   height: 750px;
+}
+
+.Pastille_1_photo {
+   width: 100%;
+   height: 500px;
+   background-image: url(../PHOTOS/pastille_1.jpg);\
+   background-size: 100% 100%;
+}
+
+.Pastille_2_photo {
+   width: 100%;
+   height: 500px;
+   background-image: url(../PHOTOS/pastille_2.jpg);
+   background-size: 100% 100%;}
+
+
+.Pastille_3_photo {
+   width: 100%;
+   height: 500px;
+   background-image: url(../PHOTOS/pastille_3.jpg);
+   background-size: 100% 100%;
+}
+
+.Pastille_1_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Pastille_2_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Pastille_3_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Pastille_1_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Pastille_2_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Pastille_3_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.bin {
+   width: 216.81px;
+   height: 40.19px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid black;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+   margin-top: 20px;
+}
+.Form {
+   width: 100%;
+   height: 700px;
+}
+
+.Form_flex {
+   width: 100%;
+   height: 100%;
+   display: inline-flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.Form_info {
+   width: 43%;
+   height: 650px;
+   
+   display: flex;
+   flex-direction: column;
+}
+
+.Form_title {
+   width: 241px;
+   height: 59.19px;
+   margin-right: auto;
+   margin-left: auto;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 59px;
+   letter-spacing: 0.15em;
+
+   color: #000000;
+}
+
+.Form_photo {
+   width: 50%;
+   height: 640.9px;
+   background-image: url(../PHOTOS/Forms.jpg);
+   background-size: 100% 100%;
+}
+
+.Form_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 403px;
+  border: 2px solid black;
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.Silicone_forms {
+   height: 1200px;
+   width: 100%;
+   position: relative;
+}
+
+.Forms_info {
+   height: 100%;
+   width: 100%;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.collection_Forms {
+   width: 95%;
+   height: 1200px;
+}
+
+.Forms_title {
+   margin-left: auto;
+   margin-right: auto;
+   width: 695.81px;
+   height: 78px;
+   border: 3px solid black;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Montserrat';
+   font-weight: 800;
+   font-size: 30px;
+   line-height: 17px;
+   letter-spacing: 0.1em;
+}
+
+.Dots {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 75px;
+   letter-spacing: 0.1em;
+
+   color: rgba(0, 0, 0, 0.4);
+   width: 500.59px;
+   height: 60.39px;
+   margin-right: auto;
+   margin-left: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.three_palms_4 {
+   width: 100%;
+   height: 1000px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Forms_1 {
+   width: 30%;
+   height: 751.4px;
+}
+
+.Forms_2 {
+   width: 30%;
+   height: 751.4px;
+}
+
+.Forms_3 {
+   width: 30%;
+   height: 750px;
+}
+
+.Forms_1_photo {
+   width: 100%;
+   height: 751.4px;
+   background-image: url(../PHOTOS/Form_1.jpg);\
+   background-size: 100% 100%;
+}
+
+.Forms_2_photo {
+   width: 100%;
+   height: 751.4px;
+   background-image: url(../PHOTOS/Form_2.jpg);
+   background-size: 100% 100%;
+}
+
+
+.Forms_3_photo {
+   width: 100%;
+   height: 750px;
+   background-image: url(../PHOTOS/Form_3.jpg);
+   background-size: 100% 100%;
+}
+
+.Forms_1_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   color: #000000;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Forms_2_text {
+   width: 100%;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Forms_3_text {
+   width: 100%d;
+   height: 56px;
+   border-bottom: 2px solid black;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 29px;
+   letter-spacing: 0.15em;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Forms_1_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Forms_2_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.Forms_3_value {
+   width: 114.4px;
+   height: 21.6px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 18px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+}
+
+.bin {
+   width: 216.81px;
+   height: 40.19px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid black;
+   font-size: 18px;
+   font-family: 'Montserrat';
+   font-weight: normal;
+   margin-top: 20px;
+}
+
+.Footer {
+   height: 812.4px;
+   width: 100%;
+   background: rgba(204, 187, 179, 0.57);
+   position: relative;
+}
+
+.Footer_info {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Footer_info_1 {
+   width: 50%;
+   height: 412.59px;
+   border-top: 2px solid black;
+   border-right: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Footer_info_2 {
+   width: 50%;
+   height: 412.59px;
+   border-bottom: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Map {
+   width: 32%;
+   height: 50%;
+}
+
+.Telephone_call {
+  width: 32%;
+  height: 50%;
+}
+
+.Gmail {
+   width: 32%;
+   height: 50%;
+}
+
+.Map_photo {
+   width: 60px;
+   height: 70px;
+   background-image: url(../PHOTOS/adress.jpg);
+   margin-left: auto;
+   margin-right: auto;
+   mix-blend-mode: multiply;
+}
+
+.Telephone_call_photo {
+   width: 76.53px;
+   height: 78.97px;
+   background-image: url(../PHOTOS/telephone.jpg);
+   margin-left: auto;
+   margin-right: auto;
+   mix-blend-mode: multiply;
+}
+
+.Gmail_photo {
+   width: 100px;
+   height: 84.6px;
+   background-image: url(../PHOTOS/mail.jpg);
+   margin-left: auto;
+   margin-right: auto;
+   mix-blend-mode: multiply;
+}
+
+.Map_info {
+   width: 214px;
+   height: 44px;
+   margin-top: 24px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Telephone_call_info {
+   width: 224px;
+   height: 44px;
+   margin-top: 24px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Gmail_info {
+   height: 32.86px;
+   width: 150px;
+   margin-top: 24px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Telegram {
+   width: 32%;
+   height: 50%;
+}
+
+.Instagram {
+  width: 32%;
+  height: 50%;
+}
+
+.Facebook {
+   width: 32%;
+   height: 50%;
+}
+
+.Telegram_photo {
+   width: 83.03px;
+   height: 78.4px;
+   background-image: url(../PHOTOS/telegram.jpg);
+   margin-left: auto;
+   margin-right: auto;
+   mix-blend-mode: multiply;
+}
+
+.Instagram_photo {
+   width: 73.29px;
+   height: 71.28px;
+   background-image: url(../PHOTOS/instagram.jpg);
+   margin-left: auto;
+   margin-right: auto;
+   mix-blend-mode: multiply;
+}
+
+.Facebook_photo {
+   width: 70.43px;
+   height: 71.28px;
+   background-image: url(../PHOTOS/facebook.jpg);
+   margin-left: auto;
+   margin-right: auto;
+   mix-blend-mode: multiply;
+}
+
+.Footer_photo {
+   width: 202.59px;
+   height: 89.24px;
+   background-image: url(../PHOTOS/footer.jpg);
+   position: absolute;
+   bottom: 0;
+   mix-blend-mode: multiply;
+}
